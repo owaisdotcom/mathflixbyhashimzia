@@ -1,8 +1,7 @@
 const mongoose = require('mongoose');
 require('dotenv').config();
 
-// Define the MongoDB connection URL. 
-// Replace '<username>', '<password>', '<cluster>', and '<database>' with your actual MongoDB credentials and database name.
+// MongoDB connection URL defined inside .env file. 
 const dbURL = process.env.MONGODB_URL;
 
 // MongoDB options
