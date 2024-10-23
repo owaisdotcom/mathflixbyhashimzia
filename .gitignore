@@ -1,2 +1,25 @@
+<<<<<<< HEAD
 /backend/node_modules
 /backend/package-lock.json
+=======
+# Node.js dependencies
+node_modules/
+
+# Log files
+*.log
+
+# Environment variables
+.env
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+
+# Operating system files
+.DS_Store
+Thumbs.db
+>>>>>>> c78517d8c01753f25a0b9c668810c87edf6b7209
